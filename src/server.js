@@ -33,7 +33,7 @@ app.get('/api/personal-data', (request, response) => {
 
 	response.setHeader('Content-Type', 'application/json');
 	response.send(JSON.stringify(personalData));
-	// Esto es para enviar mi objeto al servidor por eso lo convertimos en un objeto plano
+	// Esto es para enviar mi objeto al cliente por eso lo convertimos en un objeto plano
 });
 
 // START APP
